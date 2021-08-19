@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="inp">
+        <input type="text" id="showInp" />
+        <button onclick="delList()">X</button>
+      </div>
+      <div>
+        <ul class="list">
+          <li class="list-group">massage 1</li>
+          <li class="list-group">massage 2</li>
+          <li class="list-group">massage 3</li>
+          <li class="list-group">massage 4</li>
+        </ul>
+      </div>
+      <div class="d-flex">
+        <input type="text" placeholder="edit task" id="inp" /><button
+          onclick="addList()"
+        >
+          send
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
